@@ -1,0 +1,14 @@
+@import "./base.scss";
+body {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  #app {
+    background-color: red;
+    box-sizing: border-box;
+  }
+}
